@@ -1,0 +1,42 @@
+/* src/Layout.css */
+.layout {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 200px; 
+  background-color: black;
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); 
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar li {
+  margin-bottom: 15px;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.sidebar a:hover {
+  color: #007bff; 
+}
+
+.main-content {
+  flex: 1; 
+  padding: 20px;
+  overflow-y: auto;
+}
