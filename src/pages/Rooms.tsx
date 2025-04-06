@@ -1,3 +1,3 @@
 export default function Room() {
-  return <div>Room</div>;
+  return <div>Rooms</div>;
 }
